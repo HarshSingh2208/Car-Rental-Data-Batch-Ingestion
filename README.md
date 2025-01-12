@@ -1,28 +1,29 @@
-# Car-Rental-Data-Batch-Ingestion
-Car Rental Data Batch Ingestion using Python, PySpark, GCP Dataproc, Airflow, Snowflake.
+# 🚗 Car Rental Data Batch Ingestion
 
-## Overview
+Car Rental Data Batch Ingestion using **Python**, **PySpark**, **GCP Dataproc**, **Airflow**, and **Snowflake**.
 
-This project implements a scalable data ingestion pipeline for car rental data using Python, PySpark, GCP Dataproc, Airflow, and Snowflake. The pipeline processes daily car rental and customer data from Google Storage, performs transformations, and updates the Snowflake data warehouse.
+## 📊 Overview
 
-## Tech Stack
+This project implements a scalable data ingestion pipeline for car rental data using **Python**, **PySpark**, **GCP Dataproc**, **Airflow**, and **Snowflake**. The pipeline processes daily car rental and customer data from **Google Storage**, performs transformations, and updates the **Snowflake data warehouse**.
 
-- **Python**: For scripting and automation.
-- **PySpark**: For data processing and transformations.
-- **GCP Dataproc**: For running PySpark jobs.
-- **Airflow**: For orchestrating workflows and scheduling.
-- **Snowflake**: For data warehousing.
-- **Google Cloud Storage**: For storing raw data.
+## 🛠️ Tech Stack
 
-## Project Components
+- 🐍 **Python**: For scripting and automation.
+- 🔥 **PySpark**: For data processing and transformations.
+- ☁️ **GCP Dataproc**: For running PySpark jobs.
+- 🐦 **Airflow**: For orchestrating workflows and scheduling.
+- ❄️ **Snowflake**: For data warehousing.
+- 🗃️ **Google Cloud Storage**: For storing raw data.
 
-### Data Pipeline
+## 🔄 Project Components
 
-1. **Ingestion**: Reads daily car rental and customer data from Google Storage.
-2. **Transformation**: Uses PySpark to transform the raw data.
-3. **Data Warehouse**: Updates the Snowflake data warehouse with the transformed data.
+### 📈 Data Pipeline
 
-### Snowflake Schema
+1. **Ingestion**: Reads daily car rental and customer data from **Google Storage**.
+2. **Transformation**: Uses **PySpark** to transform the raw data.
+3. **Data Warehouse**: Updates the **Snowflake** data warehouse with the transformed data.
+
+### 🗂️ Snowflake Schema
 
 - **`location_dim`**: Static dimension table for locations.
 - **`date_dim`**: Static dimension table for dates.
@@ -30,9 +31,9 @@ This project implements a scalable data ingestion pipeline for car rental data u
 - **`customer_dim`**: Dimension table with Slowly Changing Dimension Type 2 (SCD2) merge to maintain historical data.
 - **`rentals_fact`**: Fact table for storing rental transactions.
 
-## Setup
+## 🚀 Setup
 
-### Prerequisites
+### 🔧 Prerequisites
 
 - Python 3.x
 - PySpark
@@ -40,7 +41,7 @@ This project implements a scalable data ingestion pipeline for car rental data u
 - GCP Dataproc and Google Cloud Storage access
 - Snowflake account
 
-### Installation
+### 📝 Installation
 
 1. **Clone the repository**:
    ```bash
