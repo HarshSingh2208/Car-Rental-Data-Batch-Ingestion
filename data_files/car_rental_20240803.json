@@ -1,0 +1,952 @@
+[
+    {
+        "rental_id": "RNTL001",
+        "customer_id": "CUST001",
+        "car": {
+            "make": "Tesla",
+            "model": "Model S",
+            "year": 2022
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "New York - JFK Airport",
+            "dropoff_location": "Denver - DEN Airport"
+        },
+        "amount": 255.21,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL002",
+        "customer_id": "CUST002",
+        "car": {
+            "make": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-09"
+        },
+        "rental_location": {
+            "pickup_location": "San Francisco - SFO Airport",
+            "dropoff_location": "Los Angeles - LAX Airport"
+        },
+        "amount": 435.9,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL003",
+        "customer_id": "CUST003",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-07"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 283.07,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL004",
+        "customer_id": "CUST004",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "Seattle - SeaTac Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 404.24,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL005",
+        "customer_id": "CUST005",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "Miami - MIA Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 356.95,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL006",
+        "customer_id": "CUST006",
+        "car": {
+            "make": "Nissan",
+            "model": "Altima",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 236.33,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL007",
+        "customer_id": "CUST007",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 250.42,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL008",
+        "customer_id": "CUST008",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Dallas - DFW Airport",
+            "dropoff_location": "Los Angeles - LAX Airport"
+        },
+        "amount": 320.21,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL009",
+        "customer_id": "CUST009",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Dallas - DFW Airport",
+            "dropoff_location": "San Francisco - SFO Airport"
+        },
+        "amount": 242.98,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL010",
+        "customer_id": "CUST010",
+        "car": {
+            "make": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 393.3,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL011",
+        "customer_id": "CUST001",
+        "car": {
+            "make": "Audi",
+            "model": "A4",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Los Angeles - LAX Airport"
+        },
+        "amount": 125.47,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL012",
+        "customer_id": "CUST002",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Seattle - SeaTac Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 149.46,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL013",
+        "customer_id": "CUST003",
+        "car": {
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-05"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 80.81,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL014",
+        "customer_id": "CUST004",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-05"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "New York - JFK Airport"
+        },
+        "amount": 90.57,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL015",
+        "customer_id": "CUST005",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 422.1,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL016",
+        "customer_id": "CUST006",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-07"
+        },
+        "rental_location": {
+            "pickup_location": "New York - JFK Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 171.38,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL017",
+        "customer_id": "CUST007",
+        "car": {
+            "make": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-07"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "New York - JFK Airport"
+        },
+        "amount": 344.31,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL018",
+        "customer_id": "CUST008",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Chicago - O'Hare Airport",
+            "dropoff_location": "San Francisco - SFO Airport"
+        },
+        "amount": 277.48,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL019",
+        "customer_id": "CUST009",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Houston - Bush Intercontinental Airport"
+        },
+        "amount": 460.59,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL020",
+        "customer_id": "CUST010",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Dallas - DFW Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 193.83,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL021",
+        "customer_id": "CUST001",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Houston - Bush Intercontinental Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 366.16,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL022",
+        "customer_id": "CUST002",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Houston - Bush Intercontinental Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 88.23,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL023",
+        "customer_id": "CUST003",
+        "car": {
+            "make": "BMW",
+            "model": "3 Series",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Houston - Bush Intercontinental Airport"
+        },
+        "amount": 144.9,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL024",
+        "customer_id": "CUST004",
+        "car": {
+            "make": "Tesla",
+            "model": "Model S",
+            "year": 2022
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "New York - JFK Airport",
+            "dropoff_location": "New York - JFK Airport"
+        },
+        "amount": 167.04,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL025",
+        "customer_id": "CUST005",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-07"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 333.5,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL026",
+        "customer_id": "CUST006",
+        "car": {
+            "make": "Audi",
+            "model": "A4",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Seattle - SeaTac Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 81.99,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL027",
+        "customer_id": "CUST007",
+        "car": {
+            "make": "Tesla",
+            "model": "Model S",
+            "year": 2022
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 435.54,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL028",
+        "customer_id": "CUST008",
+        "car": {
+            "make": "Nissan",
+            "model": "Altima",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-09"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 96.88,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL029",
+        "customer_id": "CUST009",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "San Francisco - SFO Airport",
+            "dropoff_location": "Chicago - O'Hare Airport"
+        },
+        "amount": 341.03,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL030",
+        "customer_id": "CUST010",
+        "car": {
+            "make": "Audi",
+            "model": "A4",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Chicago - O'Hare Airport"
+        },
+        "amount": 150.97,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL031",
+        "customer_id": "CUST001",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Houston - Bush Intercontinental Airport",
+            "dropoff_location": "Chicago - O'Hare Airport"
+        },
+        "amount": 74.28,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL032",
+        "customer_id": "CUST002",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-05"
+        },
+        "rental_location": {
+            "pickup_location": "Seattle - SeaTac Airport",
+            "dropoff_location": "New York - JFK Airport"
+        },
+        "amount": 264.48,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL033",
+        "customer_id": "CUST003",
+        "car": {
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-07"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 218.97,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL034",
+        "customer_id": "CUST004",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Dallas - DFW Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 117.04,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL035",
+        "customer_id": "CUST005",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-09"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Houston - Bush Intercontinental Airport"
+        },
+        "amount": 495.72,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL036",
+        "customer_id": "CUST006",
+        "car": {
+            "make": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 378.41,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL037",
+        "customer_id": "CUST007",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 88.12,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL038",
+        "customer_id": "CUST008",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Miami - MIA Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 460.21,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL039",
+        "customer_id": "CUST009",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 430.36,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL040",
+        "customer_id": "CUST010",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Miami - MIA Airport",
+            "dropoff_location": "Houston - Bush Intercontinental Airport"
+        },
+        "amount": 221.24,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL041",
+        "customer_id": "CUST001",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Seattle - SeaTac Airport",
+            "dropoff_location": "Chicago - O'Hare Airport"
+        },
+        "amount": 103.91,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL042",
+        "customer_id": "CUST002",
+        "car": {
+            "make": "Nissan",
+            "model": "Altima",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-03"
+        },
+        "rental_location": {
+            "pickup_location": "Houston - Bush Intercontinental Airport",
+            "dropoff_location": "Houston - Bush Intercontinental Airport"
+        },
+        "amount": 237.99,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL043",
+        "customer_id": "CUST003",
+        "car": {
+            "make": "Nissan",
+            "model": "Altima",
+            "year": 2020
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-06"
+        },
+        "rental_location": {
+            "pickup_location": "San Francisco - SFO Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 454.36,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL044",
+        "customer_id": "CUST004",
+        "car": {
+            "make": "BMW",
+            "model": "3 Series",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Denver - DEN Airport",
+            "dropoff_location": "Seattle - SeaTac Airport"
+        },
+        "amount": 283.92,
+        "quantity": 4
+    },
+    {
+        "rental_id": "RNTL045",
+        "customer_id": "CUST005",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "New York - JFK Airport",
+            "dropoff_location": "Los Angeles - LAX Airport"
+        },
+        "amount": 437.54,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL046",
+        "customer_id": "CUST006",
+        "car": {
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-02",
+            "end_date": "2024-07-08"
+        },
+        "rental_location": {
+            "pickup_location": "Miami - MIA Airport",
+            "dropoff_location": "Dallas - DFW Airport"
+        },
+        "amount": 103.91,
+        "quantity": 3
+    },
+    {
+        "rental_id": "RNTL047",
+        "customer_id": "CUST007",
+        "car": {
+            "make": "BMW",
+            "model": "3 Series",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Atlanta - Hartsfield-Jackson Airport",
+            "dropoff_location": "San Francisco - SFO Airport"
+        },
+        "amount": 350.05,
+        "quantity": 1
+    },
+    {
+        "rental_id": "RNTL048",
+        "customer_id": "CUST008",
+        "car": {
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2019
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-02"
+        },
+        "rental_location": {
+            "pickup_location": "Houston - Bush Intercontinental Airport",
+            "dropoff_location": "Miami - MIA Airport"
+        },
+        "amount": 206.95,
+        "quantity": 5
+    },
+    {
+        "rental_id": "RNTL049",
+        "customer_id": "CUST009",
+        "car": {
+            "make": "Chevrolet",
+            "model": "Impala",
+            "year": 2018
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-05"
+        },
+        "rental_location": {
+            "pickup_location": "Dallas - DFW Airport",
+            "dropoff_location": "Denver - DEN Airport"
+        },
+        "amount": 316.83,
+        "quantity": 2
+    },
+    {
+        "rental_id": "RNTL050",
+        "customer_id": "CUST010",
+        "car": {
+            "make": "Volkswagen",
+            "model": "Passat",
+            "year": 2021
+        },
+        "rental_period": {
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-04"
+        },
+        "rental_location": {
+            "pickup_location": "Los Angeles - LAX Airport",
+            "dropoff_location": "Atlanta - Hartsfield-Jackson Airport"
+        },
+        "amount": 472.82,
+        "quantity": 2
+    }
+]
